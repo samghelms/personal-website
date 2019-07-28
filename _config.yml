@@ -33,6 +33,7 @@ projects:
     - quick-eval
     - data-science-tools
     - vscode-datascience-extensions
+    - benchmarking-fb-prophet-blog
     
 
 social_media:
