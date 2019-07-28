@@ -23,19 +23,26 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
-    # - repo-name
+    - mathviz
+    - delta2tex
+    - math-editor-example
+    - rich-formatting-jupyter
+    - quick-eval
+    - data-science-tools
+    - vscode-datascience-extensions
+    
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: samuel-helms-bb0b68b5
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -47,12 +54,24 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  # - name: CSS
+  #   web_url: https://github.com/topics/css
+  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
+  - name: Representation learning
+    image_url: ./lda.png
+    web_url: https://github.com/samghelms/similar_eqs_senior_proj/blob/master/report/writeup.pdf
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Application design
+    image_url: ./electron.png
+    web_url: https://github.com/samghelms/data-science-tools
+
+  - name: Data visualization
+    image_url: ./tsne.png
+    web_url: https://samghelms.github.io/webgl-scatter/
+
+  - name: Probabilistic programming/Bayesian statistics
+    image_url: ./pp.png
+
+  - name: Time series forecasting
+    image_url: ./ts.png
