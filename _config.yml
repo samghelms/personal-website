@@ -31,7 +31,7 @@ projects:
     - math-editor-example
     - rich-formatting-jupyter
     - quick-eval
-    - data-science-tools
+    # - data-science-tools
     - vscode-datascience-extensions
     - benchmarking-fb-prophet-blog
     
